@@ -34,12 +34,12 @@ Media and Fediverse capabilities are integrations, not hidden runtime
 dependencies. Model providers and hosted AI APIs are optional adapters and cannot
 be required for core operation.
 
-- [Consolidated ecosystem architecture](../psdc-architecture/docs/architecture/Consolidated-Ecosystem-Architecture.md)
-- [Dependency contract](../psdc-architecture/docs/architecture/Ecosystem-Dependency-Contract.md)
-- [Cross-pollination model](../psdc-architecture/docs/architecture/Cross-Pollination-and-Shared-Capabilities.md)
-- [Open-source-only policy](../psdc-architecture/docs/vision/11-Open-Source-Only-Policy.md)
-- [Full technology stack](../psdc-architecture/docs/vision/14-Full-Technology-Stack-and-Open-Source-Alternatives.md)
-- [Commons architecture](../psdc-architecture/docs/vision/constitutional/Post-Secondary-Digital-Commons-Architecture.md)
+- [Consolidated ecosystem architecture](../algonquin-architecture/docs/architecture/Consolidated-Ecosystem-Architecture.md)
+- [Dependency contract](../algonquin-architecture/docs/architecture/Ecosystem-Dependency-Contract.md)
+- [Cross-pollination model](../algonquin-architecture/docs/architecture/Cross-Pollination-and-Shared-Capabilities.md)
+- [Open-source-only policy](../algonquin-architecture/docs/vision/11-Open-Source-Only-Policy.md)
+- [Full technology stack](../algonquin-architecture/docs/vision/14-Full-Technology-Stack-and-Open-Source-Alternatives.md)
+- [Commons architecture](../algonquin-architecture/docs/vision/constitutional/Post-Secondary-Digital-Commons-Architecture.md)
 
 ## How to read this workspace
 
@@ -66,4 +66,4 @@ If steps 1–7 work reliably, the rest of the roadmap is additive, not a rewrite
 
 The web baseline is frozen: do not copy or merge post-v0.6.5 Open WebUI source or
 assets without file-level license review and a new ADR. See
-[ADR-0009](../psdc-architecture/docs/architecture/architecture-decision-records/ADR-0009-psdc-ai-web-foundation.md).
+[ADR-0009](../algonquin-architecture/docs/architecture/architecture-decision-records/ADR-0009-psdc-ai-web-foundation.md).
