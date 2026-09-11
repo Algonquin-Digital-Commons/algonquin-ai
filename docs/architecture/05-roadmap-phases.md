@@ -11,10 +11,10 @@ Phase 2   AI MVP (Commons AI Web + OpenCode + one local model)
 Phase 3   Production foundation (HA, PostgreSQL/Valkey, policy, telemetry)
 Phase 4   Academic platform (Brightspace, read-only)
 Phase 5   Personal Student Agent (tasks, calendar, reminders, planning)
-Phase 6   FPSDC OpenWork Desktop (OpenWork MIT core + AC Session Host)
-Phase 7   FPSDC Happy Mobile (Happy + self-hosted E2EE Session Relay)
+Phase 6   PSDC OpenWork Desktop (OpenWork MIT core + AC Session Host)
+Phase 7   PSDC Happy Mobile (Happy + self-hosted E2EE Session Relay)
 Phase 8   Action Gateway (registration, booking, clubs, forms)
-Phase 9   ← MERGE POINT: fpsdc-compute becomes a routable backend
+Phase 9   ← MERGE POINT: psdc-compute becomes a routable backend
 Phase 10  Campus Graph (unified institutional knowledge graph)
 Phase 11  Department/club specialist agents
 Phase 12  SDK + student developer platform

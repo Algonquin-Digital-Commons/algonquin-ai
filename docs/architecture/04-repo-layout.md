@@ -1,11 +1,11 @@
-# FPSDC AI Repository Layout
+# PSDC AI Repository Layout
 
-This is the product-local workspace for the FPSDC AI gateway and closely coupled
+This is the product-local workspace for the PSDC AI gateway and closely coupled
 services. It is one repository in the ADR-0022 polyrepo ecosystem, not the home
 for independently released desktop and mobile products.
 
 ```text
-fpsdc-ai/
+psdc-ai/
 │
 ├── apps/
 │   ├── web/                 # Commons AI Web; gated v0.6.5 BSD scaffold
@@ -74,7 +74,7 @@ just adds deployment and networking overhead for no benefit at this stage.
 `policies/` are Phase 4+ concerns (see `05-roadmap-phases.md`). Creating empty
 folders for them now is fine; putting real code in them now is premature.
 
-Desktop and mobile move to `fpsdc-openwork-desktop` and `fpsdc-happy-mobile` so
+Desktop and mobile move to `psdc-desktop` and `psdc-mobile` so
 their upstream provenance, permissions, releases and app-store/package pipelines
 remain independent. Build the Session Host contract before remote control and the
 content-blind Session Relay before connecting mobile.
@@ -84,10 +84,10 @@ content-blind Session Relay before connecting mobile.
 Use supported extension points or thin downstream forks:
 
 ```text
-open-webui/v0.6.5    →  fpsdc-ai/apps/web (one-time verified import)
-upstream/opencode    →  fpsdc-ai/apps/code
-different-ai/openwork (MIT core only) → fpsdc-openwork-desktop
-slopus/happy (verified MIT baseline)  → fpsdc-happy-mobile
+open-webui/v0.6.5    →  psdc-ai/apps/web (one-time verified import)
+upstream/opencode    →  psdc-ai/apps/code
+different-ai/openwork (MIT core only) → psdc-desktop
+slopus/happy (verified MIT baseline)  → psdc-mobile
 ```
 
 OpenCode follows the thin-upstream strategy. Commons AI Web follows ADR-0009:

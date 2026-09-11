@@ -29,5 +29,5 @@ only while they remain secure, accessible, maintainable, and useful.
 
 See the umbrella documents:
 
-- [ADR-0009: Commons AI Web foundation](../../../fpsdc-architecture/docs/architecture/architecture-decision-records/ADR-0009-fpsdc-ai-web-foundation.md)
-- [Commons AI Web Foundation](../../../fpsdc-architecture/docs/clients/Commons-AI-Web-Foundation.md)
+- [ADR-0009: Commons AI Web foundation](../../../psdc-architecture/docs/architecture/architecture-decision-records/ADR-0009-psdc-ai-web-foundation.md)
+- [Commons AI Web Foundation](../../../psdc-architecture/docs/clients/Commons-AI-Web-Foundation.md)

@@ -12,7 +12,7 @@ Can one GPU run it?
 Can one multi-GPU node run it?
    YES → tensor parallel
    NO ↓
-Compatible fast-network compute cell available? (from fpsdc-compute)
+Compatible fast-network compute cell available? (from psdc-compute)
    YES → distributed serving across the cell
    NO ↓
 Heterogeneous sharding possible?
@@ -34,7 +34,7 @@ just the first and last branches: dedicated GPU, or cloud.
              │     Cloud Burst     │   overflow, expensive, massive
              ├─────────────────────┤
              │  Campus Compute     │   elastic, cheap-ish, opportunistic
-             │      Fabric         │   (fpsdc-compute)
+             │      Fabric         │   (psdc-compute)
              ├─────────────────────┤
              │ Dedicated On-Prem   │   predictable, secure, fast
              │      GPUs           │

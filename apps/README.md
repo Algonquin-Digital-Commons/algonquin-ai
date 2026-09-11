@@ -1,6 +1,6 @@
 # Applications
 
-User-facing clients maintained on the FPSDC AI release train. Independently
+User-facing clients maintained on the PSDC AI release train. Independently
 released desktop and mobile products live in their own repositories. No client
 connects directly to model providers.
 
@@ -8,5 +8,5 @@ connects directly to model providers.
 - `code/` — thin downstream OpenCode integration, subject to release license review
 - `admin/` — operational UI when the gateway needs one
 
-See sibling repositories `fpsdc-openwork-desktop` and `fpsdc-happy-mobile` for
+See sibling repositories `psdc-desktop` and `psdc-mobile` for
 the desktop and mobile/web companion products.
